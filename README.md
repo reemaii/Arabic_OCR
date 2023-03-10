@@ -27,11 +27,11 @@ The architecture of this model consists of 15 layers including the input and out
 
 We present the experimental result obtained from exploring pre-processing techniques, which were tested but not included in the methodology steps.
 
-Pre-processing for Arabic Collections Online (ACO) dataset
+### Pre-processing for Arabic Collections Online (ACO) dataset
 
 The first phase is grey scaling, where the image is converted to a grey-scale image. The second phase is skew correction using the horizontal and vertical projection profiles method. This method takes the binary images and creates a horizontal histogram in which the hills of the histogram are the center locations of the horizontal ruled lines. Then we normalized the image. This process changes the range of pixel intensity values. The purpose of performing normalization is to achieve the consistency of the image range of values for the different inputs. The next phase is noise removal, smoothing out the images by removing small dots with higher intensities than the rest of the images. To remove the noise from the image, we applied a median filter and mean filter. Then, we sharpened the image to raise the text details in the image to be clear to identify. Then, applied morphologic operation (opening) was to remove salt-and-pepper noise in the image. The last phase is binarization; since our dataset has a uniform background, a background with simple noise, we applied the Otsu method for binarization. Otsu method uses global thresholding. The Otsu threshold is derived from the histogram of grayscale image intensity values. It chooses an optimal threshold that separates the image into two different classes.
 
-The result of pre-processing on a sample bad-quality page
+## The result of pre-processing on a sample bad-quality page
 
 ![Picture5](https://user-images.githubusercontent.com/109873009/224421297-eecf520e-a55b-41a4-b34b-3414bb6b9e5d.png)
 
