@@ -30,3 +30,10 @@ We present the experimental result obtained from exploring pre-processing techni
 Pre-processing for Arabic Collections Online (ACO) dataset
 
 The first phase is grey scaling, where the image is converted to a grey-scale image. The second phase is skew correction using the horizontal and vertical projection profiles method. This method takes the binary images and creates a horizontal histogram in which the hills of the histogram are the center locations of the horizontal ruled lines. Then we normalized the image. This process changes the range of pixel intensity values. The purpose of performing normalization is to achieve the consistency of the image range of values for the different inputs. The next phase is noise removal, smoothing out the images by removing small dots with higher intensities than the rest of the images. To remove the noise from the image, we applied a median filter and mean filter. Then, we sharpened the image to raise the text details in the image to be clear to identify. Then, applied morphologic operation (opening) was to remove salt-and-pepper noise in the image. The last phase is binarization; since our dataset has a uniform background, a background with simple noise, we applied the Otsu method for binarization. Otsu method uses global thresholding. The Otsu threshold is derived from the histogram of grayscale image intensity values. It chooses an optimal threshold that separates the image into two different classes.
+
+The result of pre-processing on a sample bad-quality page
+
+![Picture4](https://user-images.githubusercontent.com/109873009/224421010-90b88235-7341-46b6-b2e7-c624a811e550.png)
+
+The ACO books are not annotated. So, we changed the dataset to annotated books from KITAB corpus.
+
