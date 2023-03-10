@@ -33,7 +33,8 @@ The first phase is grey scaling, where the image is converted to a grey-scale im
 
 The result of pre-processing on a sample bad-quality page
 
-![Picture4](https://user-images.githubusercontent.com/109873009/224421010-90b88235-7341-46b6-b2e7-c624a811e550.png)
+![Picture5](https://user-images.githubusercontent.com/109873009/224421297-eecf520e-a55b-41a4-b34b-3414bb6b9e5d.png)
+
 
 The ACO books are not annotated. So, we changed the dataset to annotated books from KITAB corpus.
 
