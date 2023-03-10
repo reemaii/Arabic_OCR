@@ -10,9 +10,9 @@ The implementation of the OCR system for Arabic historical documents using the s
 
 Line segmentation steps include blurring the image and the horizontal projection algorithm. As for the word segmentation, we used findContours function in OpenCV library, which finds the boundary of each word after smoothing the image.
 
-The results of the line segmentation method
+## The results of the line segmentation method
 
-The results of the word segmentation method
+## The results of the word segmentation method
 
 # Step 2: Deep Learning Model
 
