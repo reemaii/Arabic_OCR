@@ -2,6 +2,9 @@
 
 The implementation of the OCR system for Arabic historical documents using the selected pre-processed data from KITAB corpus. The figure below shows the main phases in our methodology for recognizing Arabic text using deep learning. The process begins with line segmentation followed by word segmentation. The segmented word images are then divided into three distinct sets, consisting of a training set (80%), a validation set (10%) for monitoring the performance of the during training, and a testing set (10%) for evaluating the model.
 
+![Picture1](https://user-images.githubusercontent.com/109873009/224418772-44c9e35a-00b4-42a7-ab71-39e914f5b2e4.jpg)
+
+
 
 # Step 1: Line and Word Segmentation
 
